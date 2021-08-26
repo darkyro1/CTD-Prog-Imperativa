@@ -1,18 +1,35 @@
-let pipoca = 10;
-let macarrao = 8;
-let carne = 15;
-let feijao = 12;
-let brigadeiro = 8;
-
-function microondas(alimento, tempo) {
-    if ((tempo >= alimento) && (tempo < (alimento * 2))) {
-        console.log("Prato pronto, bom apatite!");
-    } else if (tempo > (alimento * 2) && (tempo <= (alimento * 3))) {
-        console.log("A comida queimou");
-    } else if (tempo < alimento) {
-        console.log("Tempo Insuficiente");
-    } else {
-        console.log("Kabuumm!!");
+function microondas(menu, tempo) {
+    let tempoPadrao = 0
+    switch (menu) {
+        case 'pipoca':
+            tempoPadrao = 10    
+            break;
+        case 'macarrrao':
+            tempoPadrao = 8
+            break;
+        case 'carne':
+            tempoPadrao = 15
+            break;
+        case 'feijao':
+            tempoPadrao = 12
+            break;
+        case 'brigadeiro':
+            tempoPadrao = 8
+            break;
     }
+    if (tempoPadrao == 0){
+        console.log("Prato Inexistente")
+    } else if (menu == menu && tempo >= tempoPadrao && tempo < 20) {
+        console.log('Prato pronto, bom apetite!!!');
+    } else if (menu == menu && tempo >= tempoPadrao * 2 && tempo < 30) {
+        console.log('A comida queimou');
+    } else if (menu == menu && tempo >= tempoPadrao * 3) {
+        console.log("kabumm");
+    } else if (menu == menu && tempo < tempoPadrao){
+        console.log('Tempo insuficiente');
+    } else if (menu != menu) {
+        console.log('Prato inexistente');
+    }
+
 }
-microondas(feijao, 30);
+microondas('brigadeiro', 25)
