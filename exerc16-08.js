@@ -30,32 +30,13 @@ let peso3 = 55.0;
 let altura3 = 1.62;
 let plano3 = ("Prata");
 
-console.log ("Nome:" + es + nome + es + sobreNome);
-console.log ("Idade:" + es + idade);
-console.log ("Peso:" + es + peso);
-console.log ("Altura:" + es + altura);
-console.log ("Plano:" + es + plano + es + possuiPlano);
-console.log ("IMC:" + es + peso/(altura*altura));
 
-console.log ("Nome:" + es + nome1 + es + sobreNome1);
-console.log ("Idade:" + es + idade1);
-console.log ("Peso:" + es + peso1);
-console.log ("Altura:" + es + altura1);
-console.log ("Plano:" + es + plano1 + es + possuiPlano);
-console.log ("IMC:" + es + peso1/(altura1*altura1));
+console.log("Nome:" + es + nome + es + sobreNome, "Idade:" + es + idade, "Peso:" + es + peso, "Altura:" + es + altura, "Plano:" + es + plano + es + possuiPlano, "IMC:" + es + peso/(altura*altura));
 
-console.log ("Nome:" + es + nome2 + es + sobreNome2);
-console.log ("Idade:" + es + idade2);
-console.log ("Peso:" + es + peso2);
-console.log ("Altura:" + es + altura2);
-console.log ("Plano:" + es + plano2 + es + naoPossui);
-console.log ("IMC:" + es + peso2/(altura2*altura2));
+console.log("Nome:" + es + nome1 + es + sobreNome1, "Idade:" + es + idade1, "Peso:" + es + peso1, "Altura:" + es + altura1, "Plano:" + es + plano1 + es + possuiPlano, "IMC:" + es + peso1/(altura1*altura1));
 
-console.log ("Nome:" + es + nome3 + es + sobreNome3);
-console.log ("Idade:" + es + idade3);
-console.log ("Peso:" + es + peso3);
-console.log ("Altura:" + es + altura3);
-console.log ("Plano:" + es + plano3 + es + possuiPlano);
-console.log ("IMC:" + es + peso3/(altura3*altura3));
+console.log("Nome:" + es + nome2 + es + sobreNome2, "Idade:" + es + idade2, "Peso:" + es + peso2, "Altura:" + es + altura2, "Plano:" + es + plano2 + es + naoPossui, "IMC:" + es + peso2/(altura2*altura2));
+
+console.log ("Nome:" + es + nome3 + es + sobreNome3, "Idade:" + es + idade3, "Peso:" + es + peso3, "Altura:" + es + altura3, "Plano:" + es + plano3 + es + possuiPlano, "IMC:" + es + peso3/(altura3*altura3));
 
 
